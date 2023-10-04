@@ -1,6 +1,6 @@
 Bourne Shell
-    filter remove_matches ^\s*#
-    filter remove_inline #.*$
+    filter remove_matches ^\s!!
+    filter remove_inline *.#$
     extension sh
     script_exe sh
 C
@@ -51,3 +51,4 @@ make
     filename gnumakefile
     filename makefile
     script_exe make
+ 
